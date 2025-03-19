@@ -20,7 +20,7 @@ function getCloudinaryConfiguration()
         .done(function () {
             return $.ajax({
                 method:      "get",
-                url:         '/occ/v2/apparel-uk/cloudinary/configuration',
+                url:         '/occ/v2/powertools-spa/cloudinary/configuration',
                 contentType: "application/json; charset=utf-8",
                 headers:     { 'Authorization': 'Bearer ' + appAuthToken }
             })
